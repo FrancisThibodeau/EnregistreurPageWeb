@@ -35,8 +35,6 @@ public class EnregistreurPageWeb
     {
 		try
 		{
-			int numSubstring = 7;
-
 			Socket socket = new Socket(InetAddress.getByName(WebPage), port);
 
 			PrintWriter writer = new PrintWriter(socket.getOutputStream());
