@@ -6,7 +6,7 @@ public class EnregistreurPageWeb
 	final static int port = 80;
     public static void main (String args[])
     {
-        if (args.length > 0 && args.length <=2) //si 2 parametre
+        if (args.length > 0 && args.length <=2)
         {
             try
             {
