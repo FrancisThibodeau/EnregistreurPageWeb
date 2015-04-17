@@ -1,0 +1,65 @@
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2015 15:58:06 GMT
+Server: Apache
+Content-Length: 1602
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="Site réservé aux étudiants en informatique du Collège Lionel-Groulx"/>
+<title>Prog 101 - Connexion</title>
+<link href="/format/styles2012.css" rel="stylesheet" type="text/css" />
+<link href="/format/formulaires.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function focusOnInput()
+{
+   document.getElementById( "code" ).focus();
+}
+</script>
+</head>
+
+<body onload="focusOnInput()">
+<div class="page">
+<h1>Prog 101</h1>
+<!-- <div class="entete">
+<img src="/format/images/kem.jpg" height="198" width="940">
+</div> -->
+<div class="menu">
+<!-- <a href="http://prog101.com/cours/kem/"><span style="color: white;">Mon cours</span></a>
+-->
+</div>
+<div class="contenu">
+<div class="form">
+<form action="login.php" method="post">
+<table border="0" cellpadding="10">
+<tr>
+<th colspan="2">Connexion</th>
+</tr>
+<tr>
+<td><label for="code">Code d'admission</label></td>
+<td><input type="text" name="code" id="code" /></td>
+</tr>
+<tr>
+<td><label for="motdepasse">Mot de passe</label></td>
+<td><input type="password" name="motdepasse" id="motdepasse" /></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: center;"><input type="submit" value="Valider" /></td>
+</tr>
+</table>
+</form>
+</div>
+<p class="center">
+</p>
+<p class="center">
+Les finissants qui aimeraient avoir un compte utilisateur sont invités à communiquer avec moi.
+</p>
+</div>
+<div class="basdepage">
+<!-- <strong>prog101.com</strong> -->
+</div>
+</div>
+</body>
+</html>
